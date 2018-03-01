@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "baseUrl": "./src",
+        "rootDir": "src",
+        "outDir": "dist",
+        "jsx": "react",
+        "removeComments": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["es2017", "dom"]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
